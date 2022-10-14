@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,arcade_pacman.so -o arcade_pacman.so CMakeFiles/pacman.dir/src/Ghost.cpp.o CMakeFiles/pacman.dir/src/Pacman.cpp.o 

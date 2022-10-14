@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,arcade_ncurses.so -o arcade_ncurses.so CMakeFiles/ncurses.dir/src/ncurses.cpp.o  -lncursesw -lpng 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,arcade_sfml.so -o arcade_sfml.so CMakeFiles/sfml.dir/src/sfml.cpp.o  -lsfml-graphics -lsfml-audio -lsfml-system -lsfml-window 

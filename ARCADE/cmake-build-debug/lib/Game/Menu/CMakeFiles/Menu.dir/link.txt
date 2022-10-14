@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,arcade_Menu.so -o arcade_Menu.so CMakeFiles/Menu.dir/src/Menu.cpp.o  -lSDL2 -lSDL2_image -lSDL2_ttf 

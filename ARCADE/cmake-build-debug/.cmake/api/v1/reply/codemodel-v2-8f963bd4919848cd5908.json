@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "lib/Display/ncurses",
+					"jsonFile" : "directory-lib.Display.ncurses-Debug-fe9d56f5445e4c8cf39b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/Display/ncurses",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib/Display/sdl2",
+					"jsonFile" : "directory-lib.Display.sdl2-Debug-14fce1976fe9c6fdf6ac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/Display/sdl2",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "lib/Display/sfml",
+					"jsonFile" : "directory-lib.Display.sfml-Debug-6062152b1f68458909ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/Display/sfml",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "lib/Game/Pacman",
+					"jsonFile" : "directory-lib.Game.Pacman-Debug-9b04424cf75e74d38dcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/Game/Pacman",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/Game/Menu",
+					"jsonFile" : "directory-lib.Game.Menu-Debug-fd6c4e4e887ca19d56e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/Game/Menu",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "lib/Game/Nibbler",
+					"jsonFile" : "directory-lib.Game.Nibbler-Debug-ecf57ba4d85b506e3a23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/Game/Nibbler",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "arcade",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "Menu::@2b0572e01e90bffa34dc",
+					"jsonFile" : "target-Menu-Debug-55b39418a4babd655440.json",
+					"name" : "Menu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arcade::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arcade-Debug-bc84cf47f08916a56caa.json",
+					"name" : "arcade",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ncurses::@a396a3d647c954281da9",
+					"jsonFile" : "target-ncurses-Debug-0cd33240aa9e00d01081.json",
+					"name" : "ncurses",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "nibbler::@31009e1f15936b18945f",
+					"jsonFile" : "target-nibbler-Debug-3edd7a4dcf6cf450f78e.json",
+					"name" : "nibbler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pacman::@79c37d1bd83542601606",
+					"jsonFile" : "target-pacman-Debug-8bc31a4a34dab63518e9.json",
+					"name" : "pacman",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sdl2::@357bc3243611690fa247",
+					"jsonFile" : "target-sdl2-Debug-a1f57e9523d037329839.json",
+					"name" : "sdl2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "sfml::@158f0577710b2920af1f",
+					"jsonFile" : "target-sfml-Debug-5c383237ff1b15cfc36b.json",
+					"name" : "sfml",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug",
+		"source" : "/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="arcade"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\Display\;CMake Files\lib\Display\ncurses\;CMake Files\lib\Display\sdl2\;CMake Files\lib\Display\sfml\;CMake Files\lib\Game\;CMake Files\lib\Game\Pacman\;CMake Files\lib\Game\Menu\;CMake Files\lib\Game\Nibbler\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arcade">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/arcade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 arcade"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arcade/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/arcade" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 arcade/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncurses">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/arcade_ncurses.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/ncurses/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 ncurses"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ncurses/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/arcade_ncurses.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/ncurses/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 ncurses/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/ncurses/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdl2">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/arcade_sdl2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sdl2/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 sdl2"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sdl2/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/arcade_sdl2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sdl2/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 sdl2/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sdl2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfml">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/arcade_sfml.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sfml/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 sfml"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sfml/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/arcade_sfml.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sfml/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 sfml/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Display/sfml/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pacman">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/arcade_pacman.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Pacman/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 pacman"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pacman/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/arcade_pacman.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Pacman/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 pacman/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Pacman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Menu">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/arcade_Menu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Menu/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 Menu"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Menu/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/arcade_Menu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Menu/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 Menu/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Menu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nibbler">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/arcade_nibbler.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Nibbler/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 nibbler"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nibbler/fast">
+				<Option output="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/arcade_nibbler.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/includes"/>
+					<Add directory="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Nibbler/includes"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/../../../../include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 nibbler/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/cmake-build-debug/lib/Game/Nibbler/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/ncurses/src/ncurses.cpp">
+			<Option target="ncurses"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sdl2/src/sdl2.cpp">
+			<Option target="sdl2"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sfml/src/sfml.cpp">
+			<Option target="sfml"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Menu/src/Menu.cpp">
+			<Option target="Menu"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Nibbler/src/Nibbler.cpp">
+			<Option target="nibbler"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Pacman/src/Ghost.cpp">
+			<Option target="pacman"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Pacman/src/Pacman.cpp">
+			<Option target="pacman"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/src/ArcadeBorne.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/src/ArcadeParse.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/src/Main.cpp">
+			<Option target="arcade"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/ncurses/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Display\ncurses\"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sdl2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Display\sdl2\"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Display/sfml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Display\sfml\"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Pacman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Game\Pacman\"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Menu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Game\Menu\"/>
+		</Unit>
+		<Unit filename="/home/alehmann/Epitech_2021_2022/Project/Semestre_4/B-OOP-400-LIL-4-1-arcade-thibault.campagne/lib/Game/Nibbler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\Game\Nibbler\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

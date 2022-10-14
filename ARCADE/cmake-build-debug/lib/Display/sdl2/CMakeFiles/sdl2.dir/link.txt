@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,arcade_sdl2.so -o arcade_sdl2.so CMakeFiles/sdl2.dir/src/sdl2.cpp.o  -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf 
